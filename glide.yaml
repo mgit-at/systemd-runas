@@ -1,0 +1,8 @@
+package: github.com/mgit-at/systemd-runas
+import:
+- package: github.com/coreos/go-systemd
+  repo: github.com:mgit-at/go-systemd
+  version: dbus-prop-pids
+  vcs: git
+  subpackages:
+  - dbus

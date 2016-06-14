@@ -1,0 +1,14 @@
+Source: systemd-runas
+Maintainer: Christian Pointner <cpointner@mgit.at>
+Build-Depends: debhelper (>= 9.0.0), git
+Standards-Version: 3.9.6
+Priority: extra
+Section: admin
+
+Package: systemd-runas
+Priority: extra
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: tool to transfer PID to new systemd scope and slice
+ systemd-runas can be used to move a process to a different systemd scope
+ and slice for different ressource accounting, callable as user.

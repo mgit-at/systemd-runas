@@ -1,0 +1,5 @@
+systemd-runas (0.0~git20160614-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Christian Pointner <equinox@spreadspace.org>  Tue, 14 Jun 2016 17:23:06 +0200
